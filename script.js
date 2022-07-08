@@ -25,7 +25,7 @@ const parameter = {
  */
 start.addEventListener("click", () => {
 	if (!text.value || !option.value) {
-		error.textContent = "Details are empty!!!";
+		error.innerHTML = `Details are empty!!!`;
 	} else {
 		userData["text"] = text.value;
 		userData["option"] = option.value;
