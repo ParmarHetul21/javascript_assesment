@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Javascript Bubble Letter Game</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="form-data">Bubble Letter Game</div>
+		<!-- From generatio -->
+		<div class="form-data">
+			<div class="chk_input">
+				<input
+					type="text"
+					name="text"
+					id="text"
+					placeholder="Enter your name"
+				/>
+				<div>
+					<label for="form-text">Choose a difficulty level:</label>
+					<select id="level">
+						<option value="easy" selected>easy</option>
+						<option value="hard">hard</option>
+					</select>
+				</div>
+			</div>
+			<button class="start">Start Game</button>
+		</div>
+		<!-- Dynamic text insertion  -->
+		<p class="key"></p>
+		<p class="data"></p>
+		<p class="timer"></p>
+		<p class="character"></p>
+		<script src="./index.js"></script>
+	</body>
+</html>
