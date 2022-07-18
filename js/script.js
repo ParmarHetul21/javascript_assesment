@@ -3,12 +3,12 @@ const option = document.getElementById("level");
 const start = document.querySelector(".start");
 const error = document.querySelector(".data1");
 let timer = document.querySelector(".timer");
+let character = document.querySelector(".character");
 const userData = {};
 var startTimerInSecond = 1;
 var timeInSecond = 1;
 var interval;
 var infiniteInterval;
-let character = document.querySelector(".character");
 const parameter = {
 	easy: {
 		time: 5,
